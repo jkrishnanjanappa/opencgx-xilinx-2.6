@@ -1,6 +1,6 @@
-# Release repository for zedboard-zynq7
+# Release repository for ultra96-zynqmp
 
-Montavista Software, LLC. release of zedboard-zynq7. 
+Montavista Software, LLC. release of ultra96-zynqmp. 
 
 How to use:
 ==========
@@ -40,11 +40,11 @@ directory layout:
 ================
 ```
 opencgx-xilinx-2.6/
-       project - bitbake project for the zedboard-zynq7 project build
+       project - bitbake project for the ultra96-zynqmp project build
        buildtools - build tools to provide minimal build requirement for poky builds
-       layers - layers for building zedboard-zynq7 project
+       layers - layers for building ultra96-zynqmp project
        setup.sh - project setup script
        bin - various helper applications for setting up and maintaining the release directory
 ```
 
-Verfied machines: zedboard-zynq7 zedboard-zynq7 ultra96-zynqmp
+Verfied machines: ultra96-zynqmp zedboard-zynq7
