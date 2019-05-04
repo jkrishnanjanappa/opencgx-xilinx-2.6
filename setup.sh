@@ -56,8 +56,8 @@ LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-xilinx.git;branch=
 LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-montavista-xilinx.git;branch=thud \
 MACHINE@ultra96-zynqmp \
 DISTRO@mvista-cgx \
-SOURCE@https://github.com/MontaVista-OpenSourceTechnology/linux-mvista-2.6.git;branch=mvl-4.19/msd.cgx \
-SOURCE@https://github.com/MontaVista-OpenSourceTechnology/yocto-kernel-cache.git;branch=yocto-4.19 \
+SOURCE@https://github.com/MontaVista-OpenSourceTechnology/linux-mvista-2.6.git;branch=mvl-4.19/msd.cgx;meta=MV_KERNEL \
+SOURCE@https://github.com/MontaVista-OpenSourceTechnology/yocto-kernel-cache.git;branch=yocto-4.19;meta=MV_KERNELCACHE \
 "
 TOPDIR=$(dirname $THIS_SCRIPT)
 buildtar=""
