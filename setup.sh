@@ -53,6 +53,7 @@ LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-cloud-services.git
 LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-cloud-services.git;branch=thud;layer=meta-openstack \
 LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-montavista-cgl.git;branch=thud \
 LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-xilinx.git;branch=thud;layer=meta-xilinx-bsp \
+LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-xilinx.git;branch=thud;layer=meta-xilinx-standalone \
 LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-montavista-xilinx.git;branch=thud \
 MACHINE@ultra96-zynqmp \
 DISTRO@mvista-cgx \
